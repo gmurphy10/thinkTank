@@ -9,6 +9,4 @@ class PagesController < ApplicationController
   def profile
   end
 
-  def projects
-  end
 end

@@ -6,5 +6,9 @@ Rails.application.routes.draw do
   get '/about', to: "pages#about"
   #verb         to    controller#action
   get '/profile', to: "pages#profile"
-  get '/projects', to: "pages#projects"
+  get '/projects', to: "projects#index"
+  get 'project/:id', to: "projects#show"
 end
+
+
+
